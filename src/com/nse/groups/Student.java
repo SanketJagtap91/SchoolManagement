@@ -2,7 +2,7 @@ package com.nse.groups;
 
 import com.nse.base.Person;
 
-public class Student extends Person {
+public abstract class Student extends Person {
 	
 	public int studentId;
 	private double studentPercentage;

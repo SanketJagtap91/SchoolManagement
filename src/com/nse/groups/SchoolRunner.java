@@ -1,5 +1,6 @@
 package com.nse.groups;
 
+
 public class SchoolRunner {
 
 	public static void main(String[] args) 

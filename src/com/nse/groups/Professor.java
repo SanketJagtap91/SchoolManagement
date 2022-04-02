@@ -2,7 +2,7 @@ package com.nse.groups;
 
 import com.nse.base.Person;
 
-public class Professor extends Person {
+public abstract class Professor extends Person {
 	public String professorId;
 	public String departmentId;
 	public String departmentName;

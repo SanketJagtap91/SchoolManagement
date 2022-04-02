@@ -1,6 +1,6 @@
 package com.nse.base;
 
-public class Person {
+public abstract class Person {
 	public String Name;
 	private String PhoneNumber;
 	private String MailID;
@@ -32,5 +32,5 @@ public class Person {
 			PhoneNumber = "Invalid Mobile Number - "+ phoneNumber;
 	}
 	
-//    public abstract void displayPersonDetails();
+    public abstract void displayPersonDetails();
 }
